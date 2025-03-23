@@ -1,16 +1,46 @@
-# Ignore build files
+# Visual Studio Files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build Results
 bin/
 obj/
+out/
 
-# Ignore user-specific and IDE files
-.vscode/
-*.suo
-*.user
-*.db
-*.bak
+# Packages
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
 
-# Ignore logs and environment files
-logs/
+# Logs
 *.log
-.env
-secrets.json
+logs/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+
+# Generated files
+Generated/
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.class
+*.idb
+*.ipch
+*.obj
+*.o
+*.so
+*.swp
+*.lock
